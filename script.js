@@ -1,5 +1,7 @@
-// alert("hey");
+// alert(arrayNum);
 var arrayNum = [];
+var numUtente=[];
+
 
 while(arrayNum.length < 5){
   var randomNum = generatoreNum();
@@ -12,9 +14,16 @@ while(arrayNum.length < 5){
 }
 console.log(arrayNum);
 
+alert(arrayNum);
+
+
+setTimeout(questions, 3000);
+function questions() {
+  prompt("inserisci i numeri che hai visto prima");
 
 
 
+}
 
 
 
