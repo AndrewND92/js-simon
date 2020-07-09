@@ -19,7 +19,11 @@ alert(arrayNum);
 
 setTimeout(questions, 3000);
 function questions() {
-  prompt("inserisci i numeri che hai visto prima");
+  for (var i = 0; i < 5; i++) {
+    prompt("inserisci i numeri che hai visto prima");
+
+  }
+
 
 
 
