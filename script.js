@@ -1,9 +1,13 @@
-alert("hey");
+// alert("hey");
 var arrayNum = [];
 
 while(arrayNum.length < 5){
   var randomNum = generatoreNum();
-  arrayNum.push(randomNum);
+  var isIncluded = arrayNum.includes(randomNum);
+
+  if( isIncluded == false ) {
+  		arrayNum.push(randomNum);
+  }
 
 }
 console.log(arrayNum);
